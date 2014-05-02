@@ -18,3 +18,4 @@ attempts = MAX_ATTEMPTS
 while attempts and random.randint(MIN_INT, MAX_INT) < PRB:
   attempts -= 1
   print 'Doh, keep guessing!'
+print 'That was fun! Let\'s move on...'
