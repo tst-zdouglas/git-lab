@@ -13,4 +13,4 @@ print 'I\'d like to play a game...'
 attempts = 1000
 while attempts and random.randint(0, 100) < 100 / 65:
   attempts -= 1
-  print 'D'oh, keep guessing!'
+  print 'Doh, keep guessing!'
