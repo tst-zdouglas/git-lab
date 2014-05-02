@@ -10,7 +10,11 @@ for line in fileinput.input():
   break
 
 print 'I\'d like to play a game...'
-attempts = 1000
-while attempts and random.randint(0, 100) < 100 / 65:
+MAX_ATTEMPTS = 1000
+MIN_INT = 0
+MAX_INT = 100
+PRB = 65
+attempts = MAX_ATTEMPTS
+while attempts and random.randint(MIN_INT, MAX_INT) < PRB:
   attempts -= 1
   print 'Doh, keep guessing!'
