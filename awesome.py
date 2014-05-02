@@ -1,4 +1,5 @@
 #!/usr/bin/env python2.7
+import randoom
 import fileinput
 
 print 'Hello world!'
